@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+header{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  color: rgb(128, 58, 151);
+}
+
+#puppy-bowl{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#puppy-bowl{
+  display: flex;
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: flex-start;
+  color: rgb(220, 213, 213);
+  background-color: rgb(5, 5, 5);
+  border: 2px dotted rgb(220, 213, 213);
+  
+}
+
+img{
+  width: 200px;
+  height: 150px;
+}
+
+form input{
+  color: white;
+  background-color: rgb(58, 56, 56);
+}
+
+form button{
+  color: rgb(220, 213, 213);
+  background-color: rgb(44, 42, 42);
+  border: 1px solid rgb(220, 213, 213);
+}
+
+#status{
+  color: rgb(220, 213, 213);
+  background-color: rgb(2, 2, 2);
+}
+
+.container2{
+  color: rgb(220, 213, 213);
+  background-color: rgb(2, 2, 2);
+  border: 2px dotted rgb(220, 213, 213);
+}
+
+
+#players{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+li button{
+  color: rgb(220, 213, 213);
+  background-color: rgb(44, 42, 42);
+  border: 1px solid rgb(220, 213, 213);
+}

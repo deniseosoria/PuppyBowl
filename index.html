@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>PuppyBowl</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Puppy Bowl</h1>
+  </header>
+  
+  <div id="puppy-bowl">
+    <div class="container1">
+
+    <form>
+
+      <div>
+        <h2>New Player Form</h2>
+      </div>
+      
+      <div>
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          Breed
+          <input type="text" name="breed" required />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Image URL
+          <input type="url" name="imageUrl" required />
+        </label>
+      </div>
+
+      <div>
+        <!-- Status Dropdown -->
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+          <option value="" disabled selected>Select status</option>
+          <option value="bench">Bench</option>
+          <option value="field">Field</option>
+        </select>
+      </div>
+
+      <div>
+        <button id="add-puppy">Add Puppy</button>
+      </div>
+
+    </form>
+  </div>
+
+    <div class="container2">
+
+      <div>
+        <h2>Players</h2>
+      </div>
+
+      <div>
+        <ul id="players"></ul>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
